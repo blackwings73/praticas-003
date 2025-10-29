@@ -10,7 +10,7 @@ const Templates = (function(){
           <p class="meta">Paleta: verde-claro, rosa, vermelho, amarelo, preto — acessibilidade considerada.</p>
           <p><span class="badge">Mangá</span> <span class="badge" style="background:var(--accent-pink)">Anime</span></p>
         </div>
-        <img class="hero-img img-cover" src="images/placeholder-hero.svg" alt="Imagem destaque — placeholder">
+        <img class="hero-img img-cover" src=https://uploads.jovemnerd.com.br/wp-content/uploads/2024/11/denji_chainsaw_man__wx5cqbjv7-scaled.jpeg alt="Imagem destaque — placeholder">
       </section>
 
       <section class="card" aria-labelledby="about-title">
