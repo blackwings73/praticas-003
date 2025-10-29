@@ -92,7 +92,8 @@ const Templates = (function(){
     return `
       <section class="card" aria-labelledby="hist">
         <h2 id="hist">Sinopse e análise</h2>
-        <p><strong>Sinopse:</strong> Chainsaw Man acompanha Denji, um jovem que, ao fundir-se com seu demônio de estimação Pochita, ganha a habilidade de se transformar em uma criatura motosserra. Ele se envolve em missões de caça a demônios e enfrenta forças humanas e sobrenaturais.</p>
+        <p><strong>Sinopse:</strong>Chainsaw Man acompanha a vida de Denji, um jovem que enfrenta dificuldades e desafios em um mundo repleto de demônios. Para sobreviver, ele realiza diversas tarefas perigosas, mostrando coragem e determinação. A história mistura ação, aventura e elementos sobrenaturais, explorando relações entre pessoas e criaturas místicas. Com uma narrativa intensa e dinâmica, o mangá equilibra momentos de suspense, humor e emoção. Ao longo da trama, o leitor é apresentado a diferentes personagens, cada um com sua própria personalidade e objetivos. A obra destaca a luta pela sobrevivência e o desejo de alcançar sonhos simples. A estética combina cenas de ação detalhadas com momentos mais leves e cômicos. O universo do mangá é vibrante, criativo e cheio de surpresas.
+</p>
         <h3>Análise temática</h3>
         <ul>
           <li><strong>Violência e sátira:</strong> A série usa violência explícita para subverter expectativas narrativas.</li>
