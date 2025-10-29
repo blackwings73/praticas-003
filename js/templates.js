@@ -1,4 +1,3 @@
-// templates.js — templates detalhados (placeholders para imagens locais em /images)
 const Templates = (function(){
 
   function home(){
@@ -6,11 +5,11 @@ const Templates = (function(){
       <section class="hero card" aria-labelledby="home-title">
         <div>
           <h2 id="home-title">Chainsaw Man — Portal de Fãs</h2>
-          <p class="lead">Bem-vindo ao portal educativo criado para a atividade do curso. Este site é um projeto prático que demonstra SPA, templates JS e validação de formulários. As imagens são placeholders e devem ser substituídas por arquivos com permissão antes do deploy público.</p>
+          <p class="lead">Bem-vindo ao portal educativo criado para a atividade do curso. Este site é um projeto prático que demonstra SPA, templates JS e validação de formulários. As imagens representam personagens do mangá/anime Chainsaw Man.</p>
           <p class="meta">Paleta: verde-claro, rosa, vermelho, amarelo, preto — acessibilidade considerada.</p>
           <p><span class="badge">Mangá</span> <span class="badge" style="background:var(--accent-pink)">Anime</span></p>
         </div>
-        <img class="hero-img img-cover" src=https://uploads.jovemnerd.com.br/wp-content/uploads/2024/11/denji_chainsaw_man__wx5cqbjv7-scaled.jpeg alt="Imagem destaque — placeholder">
+        <img class="hero-img img-cover" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlCgDSuSV6rzaBcQW_w5-qvNeftt8uHTMkug&s" alt="Denji — destaque">
       </section>
 
       <section class="card" aria-labelledby="about-title">
@@ -31,57 +30,45 @@ const Templates = (function(){
         <h2 id="chars">Personagens — descrições detalhadas</h2>
         <div class="grid">
           <article>
-            <img src="images/placeholder-denji.svg" alt="Denji — placeholder" class="img-cover">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlCgDSuSV6rzaBcQW_w5-qvNeftt8uHTMkug&s" alt="Denji" class="img-cover">
             <h3>Denji</h3>
-            <p><strong>Resumo:</strong> Denji é o protagonista da obra. Jovem pobre que se torna caçador de demônios após fundir-se com Pochita, o demônio motosserra. Sua personalidade é direta, movida por desejos simples e uma busca por liberdade.</p>
-            <p><strong>Contexto narrativo:</strong> A jornada de Denji mistura violência gráfica e humor ácido, com temas sobre humanidade, desejo e exploração social.</p>
+            <p><strong>Resumo:</strong> Denji é o protagonista da obra. Jovem pobre que se torna caçador de demônios. Sua personalidade é direta, movida por desejos simples e uma busca por liberdade.</p>
           </article>
 
           <article>
-            <img src="images/placeholder-pochita.svg" alt="Pochita — placeholder" class="img-cover">
-            <h3>Pochita</h3>
-            <p><strong>Resumo:</strong> Demônio motosserra que se torna companheiro de Denji. Representa laços afetivos e sacrifício.</p>
-            <p><strong>Importância:</strong> A relação entre Denji e Pochita é central para a motivação do protagonista.</p>
-          </article>
-
-          <article>
-            <img src="images/placeholder-power.svg" alt="Power — placeholder" class="img-cover">
+            <img src="https://images5.alphacoders.com/132/1325249.jpeg" alt="Power" class="img-cover">
             <h3>Power</h3>
-            <p><strong>Resumo:</strong> Uma personagem caótica, impulsiva e carismática. Power é um demônio que compartilha laços conflituosos com humanos e apoia o elenco em arcos importantes.</p>
-            <p><strong>Dinâmica:</strong> Fornece alívio cômico, conflitos emocionais e elementos de ação.</p>
+            <p><strong>Resumo:</strong> Uma personagem caótica, impulsiva e carismática, que compartilha laços conflituosos com humanos e apoia o elenco em arcos importantes.</p>
           </article>
 
           <article>
-            <img src="images/placeholder-aki.svg" alt="Aki Hayakawa — placeholder" class="img-cover">
+            <img src="https://images.wallpapersden.com/image/wxl-aki-hayakawa-hd-chainsaw-man-art_87606.jpg" alt="Aki Hayakawa" class="img-cover">
             <h3>Aki Hayakawa</h3>
             <p><strong>Resumo:</strong> Membro do esquadrão, sério e dedicado. Aki oferece contraponto moral e estratégias ao grupo.</p>
-            <p><strong>Arco:</strong> Seu desenvolvimento explora temas de dever, perda e redenção.</p>
           </article>
 
           <article>
-            <img src="images/placeholder-makima.svg" alt="Makima — placeholder" class="img-cover">
+            <img src="https://wallpapers.com/images/hd/makima-chainsaw-man-lh1tnc0xrzlg6p29.jpg" alt="Makima" class="img-cover">
             <h3>Makima</h3>
-            <p><strong>Resumo:</strong> Figura enigmática e manipuladora. Makima exerce forte controle sobre outros personagens, sendo peça central de conflitos de poder.</p>
-            <p><strong>Temas:</strong> Autoridade, manipulação psicológica e moral ambígua.</p>
+            <p><strong>Resumo:</strong> Figura enigmática e manipuladora, peça central de conflitos de poder.</p>
           </article>
 
           <article>
-            <img src="images/placeholder-reze.svg" alt="Reze — placeholder" class="img-cover">
+            <img src="https://c4.wallpaperflare.com/wallpaper/840/727/631/chainsaw-man-power-chainsaw-man-kobeni-chainsaw-man-reze-chainsaw-man-nayuta-chainsaw-man-hd-wallpaper-preview.jpg" alt="Reze" class="img-cover">
             <h3>Reze</h3>
-            <p><strong>Resumo:</strong> Personagem com papel significativo em arcos específicos, cuja relação com o protagonista traz consequências dramáticas.</p>
-            <p><strong>Impacto:</strong> Arcos com Reze exploram confiança e traição.</p>
+            <p><strong>Resumo:</strong> Personagem que apresenta desafios e reviravoltas na história.</p>
           </article>
 
           <article>
-            <img src="images/placeholder-bat.svg" alt="Bat Devil — placeholder" class="img-cover">
+            <img src="https://static.wikia.nocookie.net/chainsaw-man/images/6/6a/Bat_Devil.png/revision/latest?cb=20190217201309" alt="Demonio Morcego" class="img-cover">
             <h3>Demonio Morcego</h3>
-            <p><strong>Resumo:</strong> Um dos demônios exibidos na obra; serve para ilustrar a variedade de criaturas no universo.</p>
+            <p><strong>Resumo:</strong> Um dos demônios exibidos na obra; representa ameaças sobrenaturais.</p>
           </article>
 
           <article>
-            <img src="images/placeholder-shark.svg" alt="Shark Devil — placeholder" class="img-cover">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRaG0ypjuiXEZvhwhpRm34eKCWpiTkD5bgBA&s" alt="Demonio Tubarão" class="img-cover">
             <h3>Demonio Tubarão</h3>
-            <p><strong>Resumo:</strong> Outro demônio que representa as ameaças e os tons grotescos da obra.</p>
+            <p><strong>Resumo:</strong> Outro demônio que representa os tons grotescos e ameaças do universo.</p>
           </article>
         </div>
       </section>
@@ -92,14 +79,7 @@ const Templates = (function(){
     return `
       <section class="card" aria-labelledby="hist">
         <h2 id="hist">Sinopse e análise</h2>
-        <p><strong>Sinopse:</strong>Chainsaw Man acompanha a vida de Denji, um jovem que enfrenta dificuldades e desafios em um mundo repleto de demônios. Para sobreviver, ele realiza diversas tarefas perigosas, mostrando coragem e determinação. A história mistura ação, aventura e elementos sobrenaturais, explorando relações entre pessoas e criaturas místicas. Com uma narrativa intensa e dinâmica, o mangá equilibra momentos de suspense, humor e emoção. Ao longo da trama, o leitor é apresentado a diferentes personagens, cada um com sua própria personalidade e objetivos. A obra destaca a luta pela sobrevivência e o desejo de alcançar sonhos simples. A estética combina cenas de ação detalhadas com momentos mais leves e cômicos. O universo do mangá é vibrante, criativo e cheio de surpresas.
-</p>
-        <h3>Análise temática</h3>
-        <ul>
-          <li><strong>Violência e sátira:</strong> A série usa violência explícita para subverter expectativas narrativas.</li>
-          <li><strong>Personagens ambíguos:</strong> Personagens como Makima trazem complexidade moral.</li>
-          <li><strong>Estética:</strong> Mistura de horror, comédia e drama.</li>
-        </ul>
+        <p><strong>Sinopse:</strong> Chainsaw Man acompanha a vida de Denji, um jovem que enfrenta dificuldades e desafios em um mundo repleto de demônios. Para sobreviver, ele realiza diversas tarefas perigosas, mostrando coragem e determinação. A história mistura ação, aventura e elementos sobrenaturais, explorando relações entre pessoas e criaturas místicas.</p>
       </section>
     `;
   }
@@ -107,13 +87,12 @@ const Templates = (function(){
   function galeria(){
     return `
       <section class="card" aria-labelledby="gal">
-        <h2 id="gal">Galeria — substitua as imagens por arquivos licenciados</h2>
-        <p class="help">Os arquivos em /images atualmente são placeholders SVG. Baixe as imagens reais (com permissão) e substitua os arquivos mantendo os nomes sugeridos.</p>
+        <h2 id="gal">Galeria — imagens do mangá/anime</h2>
         <div class="grid">
-          <img src="images/placeholder-denji.svg" alt="Denji placeholder" class="img-cover">
-          <img src="images/placeholder-power.svg" alt="Power placeholder" class="img-cover">
-          <img src="images/placeholder-aki.svg" alt="Aki placeholder" class="img-cover">
-          <img src="images/placeholder-makima.svg" alt="Makima placeholder" class="img-cover">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlCgDSuSV6rzaBcQW_w5-qvNeftt8uHTMkug&s" alt="Denji" class="img-cover">
+          <img src="https://images5.alphacoders.com/132/1325249.jpeg" alt="Power" class="img-cover">
+          <img src="https://images.wallpapersden.com/image/wxl-aki-hayakawa-hd-chainsaw-man-art_87606.jpg" alt="Aki Hayakawa" class="img-cover">
+          <img src="https://wallpapers.com/images/hd/makima-chainsaw-man-lh1tnc0xrzlg6p29.jpg" alt="Makima" class="img-cover">
         </div>
       </section>
     `;
