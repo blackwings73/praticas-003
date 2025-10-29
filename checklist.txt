@@ -1,0 +1,8 @@
+CHECKLIST DE ENTREGA - Projeto Prático 03 (versão detalhada)
+- Estrutura de pastas organizada (OK)
+- SPA funcional com roteamento hash (OK)
+- Templates JS modulados (OK)
+- Formulário com validação e consistência (OK)
+- Paleta de cores aplicada (OK)
+- Imagens placeholders inclusas (OK)
+- README com instruções e comandos git (OK)

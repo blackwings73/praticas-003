@@ -1,24 +1,53 @@
-# chainsawman-spa (com imagens hotlinked)
+# chainsawman-spa-detalhado (Entrega: Projeto Prático 03 - SPA detalhado com placeholders)
 
-Este projeto usa as imagens cujas URLs você forneceu como **hotlinks** nas tags `<img src="...">`.
-**Eu não baixei nem redistribuí** as imagens — o projeto referencia as URLs diretamente para representar os personagens.
+Resumo
+Este projeto foi criado para uso acadêmico na disciplina. Contém uma Single Page Application (SPA) em JavaScript puro, sistema de templates, validação de formulários e estrutura organizada pronta para envio ao GitHub (branch `main` e GitHub Pages).
 
-**Atenção sobre licenças:** antes de publicar em GitHub Pages ou usar publicamente, verifique cada URL para confirmar permissão/licença. Ideal: baixar as imagens originais, confirmar permissão e hospedar no repositório (ou em um CDN que você tenha direito de usar).
+O que está incluso
+- index.html (entrada SPA)
+- css/styles.css (paleta: verde-claro, rosa, vermelho, amarelo, preto)
+- js/templates.js (templates detalhados para cada seção)
+- js/validate.js (validação e regra de consistência)
+- js/app.js (roteador hash e inicialização)
+- images/*.svg (placeholders — substitua pelos arquivos de imagem com permissão)
+- README.md (este arquivo)
+- checklist.txt (checklist de entrega pronta)
 
-Lista de imagens usadas (originais fornecidos por você):
-{
-  "denji": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlCgDSuSV6rzaBcQW_w5-qvNeftt8uHTMkug&s",
-  "power": "https://images5.alphacoders.com/132/1325249.jpeg",
-  "aki": "https://images.wallpapersden.com/image/wxl-aki-hayakawa-hd-chainsaw-man-art_87606.jpg",
-  "makima": "https://wallpapers.com/images/hd/makima-chainsaw-man-lh1tnc0xrzlg6p29.jpg",
-  "reze": "https://c4.wallpaperflare.com/wallpaper/840/727/631/chainsaw-man-power-chainsaw-man-kobeni-chainsaw-man-reze-chainsaw-man-nayuta-chainsaw-man-hd-wallpaper-preview.jpg",
-  "bat": "https://static.wikia.nocookie.net/chainsaw-man/images/6/6a/Bat_Devil.png/revision/latest?cb=20190217201309",
-  "shark": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRaG0ypjuiXEZvhwhpRm34eKCWpiTkD5bgBA&s"
-}
+Instruções para substituir imagens (passo-a-passo rápido)
+1. Baixe as imagens que você tem permissão para usar (por exemplo, as URLs que você forneceu).
+2. Salve-as na pasta `images/` com os seguintes nomes (substitui os placeholders): 
+   - placeholder-denji.svg -> denji.jpg/png
+   - placeholder-power.svg -> power.jpg/png
+   - placeholder-aki.svg -> aki.jpg/png
+   - placeholder-makima.svg -> makima.jpg/png
+   - placeholder-reze.svg -> reze.jpg/png
+   - placeholder-bat.svg -> bat-devil.png
+   - placeholder-shark.svg -> shark-devil.png
+   - placeholder-hero.svg -> hero.jpg/png
+3. Atualize o repositório e faça commit/push para o GitHub.
+4. Valide localmente abrindo `index.html` e verifique se as imagens carregam.
 
-Como usar:
-1. Descompacte o ZIP `chainsawman-spa-remote.zip`.
-2. Abra `index.html` no navegador. As imagens serão carregadas diretamente das URLs fornecidas.
-3. Para publicar em GitHub Pages, sugiro baixar as imagens com permissão e adicioná-las à pasta `images/` do repositório.
+Checklist de entrega (breve)
+- [ ] 3+ páginas semânticas (index/home, personagens, contato) — SPA
+- [ ] Formulário com validação nativa e regra de consistência
+- [ ] Estrutura de pastas organizada (css, js, images)
+- [ ] README com instruções e checklist
+- [ ] Projeto pronto para GitHub Pages (branch main)
 
-Observação técnica: hotlinking pode falhar se o servidor remoto bloquear requisições ou exigir headers/referrer. Se quiser, eu posso baixar e incluir as imagens **somente** se você confirmar que possui permissão para redistribuí-las (ou se você mesmo fizer upload dos arquivos aqui).
+Comandos git prontos
+```bash
+git init
+git add .
+git commit -m "Entrega Projeto Prático 03 - chainsawman-spa-detalhado"
+git branch -M main
+git remote add origin https://github.com/SEU_USUARIO/NOME_REPO.git
+git push -u origin main
+```
+
+Observações sobre direitos autorais
+- As imagens incluídas neste pacote são **placeholders** (SVGs). Não há redistribuição de material protegido.
+- Antes de tornar o repositório público com imagens do mangá/anime, confirme permissão/licença.
+- Se você preferir que eu inclua as imagens reais no pacote, confirme que tem permissão explícita para redistribuí-las — então eu adiciono aos arquivos.
+
+Contato
+Se quiser, eu já posso gerar o ZIP final com estas alterações — pronto para enviar ao GitHub. 
