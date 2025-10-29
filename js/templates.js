@@ -60,7 +60,7 @@ const Templates = (function(){
           </article>
 
           <article>
-            <img src=https://vocesabianime.com/wp-content/uploads/2022/10/Chainsaw-Man-ep-3-04-1000x563.webp alt="Demonio Morcego" class="img-cover">
+            <img src=https://www.geeklando.com.br/wp-content/uploads/2023/12/demonio-morcego-chainsaw-man.webp alt="Demonio Morcego" class="img-cover">
             <h3>Demonio Morcego</h3>
             <p><strong>Resumo:</strong> Um dos demônios exibidos na obra; representa ameaças sobrenaturais.</p>
           </article>
